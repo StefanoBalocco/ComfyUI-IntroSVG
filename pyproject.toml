@@ -1,0 +1,7 @@
+[project]
+name = "comfyui-introsvg"
+version = "1.0.0"
+description = "Text-to-SVG for ComfyUI with IntroSVG GGUF models and a native runtime"
+requires-python = ">=3.10"
+license = { text = "BSD-3-Clause" }
+dependencies = ["gguf>=0.13.0", "tokenizers>=0.19", "Pillow>=9.0", "numpy>=1.24", "lxml>=4.9", "cairosvg>=2.7"]
